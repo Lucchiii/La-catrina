@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121218;
+  color: #f3efe6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.contenedor {
+  max-width: 680px;
+  width: 100%;
+  background-color: #1c1c26;
+  border: 1px solid #2e2e3d;
+  border-radius: 16px;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-size: 2.4rem;
+  color: #ffb74d;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 3px 8px rgba(255, 112, 67, 0.45);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+h1:hover {
+  transform: scale(1.03);
+  text-shadow: 3px 4px 14px rgba(255, 183, 77, 0.7);
+}
+
+.calaverita {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #ece8df;
+  margin-bottom: 2rem;
+}
+
+.imagen-calavera {
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 18px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.75);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.imagen-calavera:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 16px 32px rgba(255, 183, 77, 0.25);
+}
